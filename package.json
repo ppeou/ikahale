@@ -1,0 +1,25 @@
+{
+  "name": "ikahale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts":{
+	"eslint": "~/AppData/Roaming/npm/node_modules/eslint"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": ["eslint"]
+}
